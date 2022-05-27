@@ -12,12 +12,16 @@ body{
  margin: 0px;
  padding: 0px;
  max-width: 1440px;
- max-height: 1056px;
+ max-height: 900px;
+ background-image: url(./images/pattern-background-desktop.svg);
+ background-repeat: no-repeat;
+ background-color: $paleblue;
  .card{
   max-width: 450px;
   margin: 20px auto;
   border-radius: 20px;
   box-shadow: 0px 10px 20px rgb(190, 190, 190) ;
+  background-color: white;
   .img img{
    border-radius: 20px 20px 0px 0px;
   }

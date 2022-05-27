@@ -6,7 +6,10 @@ body {
   margin: 0px;
   padding: 0px;
   max-width: 1440px;
-  max-height: 1056px;
+  max-height: 900px;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
 }
 
 body .card {
@@ -15,6 +18,7 @@ body .card {
   border-radius: 20px;
   -webkit-box-shadow: 0px 10px 20px #bebebe;
           box-shadow: 0px 10px 20px #bebebe;
+  background-color: white;
 }
 
 body .card .img img {
