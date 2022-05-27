@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  max-width: 1440px;
+  max-height: 1056px;
+}
+
+body .card {
+  max-width: 450px;
+  margin: 20px auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 10px 20px #bebebe;
+          box-shadow: 0px 10px 20px #bebebe;
+}
+
+body .card .img img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+body .card .order {
+  width: 80%;
+  margin: auto;
+}
+
+body .card .order p {
+  color: #7280a7;
+}
+
+body .card .plan {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  background: #f5f7ff;
+  border-radius: 20px;
+}
+
+body .card .plan img {
+  margin: auto;
+}
+
+body .card .plan .text {
+  text-align: left;
+}
+
+body .card .plan .text h2 {
+  margin-bottom: 5px;
+}
+
+body .card .plan .text p {
+  margin-top: 0px;
+  color: #7280a7;
+}
+
+body .card .plan a {
+  margin: auto;
+}
+
+body .card .button {
+  border: none;
+  width: 80%;
+  height: 40px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #3829e0;
+  -webkit-box-shadow: 0px 5px 15px #3829e0;
+          box-shadow: 0px 5px 15px #3829e0;
+}
+
+body .card .button a {
+  color: #e0e8ff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+body .card .cancel-btn a,
+body .card .cancel-btn :active {
+  text-decoration: none;
+  color: #7280a7;
+}
+
+body .card .attribution {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
